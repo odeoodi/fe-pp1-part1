@@ -1,5 +1,6 @@
 import "./App.css";
 import IdCard from './IdCard.jsx'
+import Random from './Random.jsx'
 
 function App() {
   return (
@@ -21,6 +22,15 @@ function App() {
         birth={new Date("1995-03-17")}
         picture="https://randomuser.me/api/portraits/men/9.jpg"
       />
+    <Random 
+      min='1'
+      max='6'
+    />
+    <Random 
+      min='1'
+      max='100'
+    />
+
     </div>
   );
 }
